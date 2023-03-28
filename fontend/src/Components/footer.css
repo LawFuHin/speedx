@@ -1,0 +1,17 @@
+.footerContainer{
+    padding-top: 15px;
+}
+
+.footerIconContainer>a{
+color:white;
+}
+
+.footerIconContainer{
+    margin-bottom: 0px!important;
+    padding-bottom: 0px!important;
+}
+.copyrightFooter{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

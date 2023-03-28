@@ -1,0 +1,44 @@
+.signContainer {
+  border: 2px solid white;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signContainer > div {
+  margin: 15px;
+}
+
+.signInput {
+  width: 250px;
+  margin-left: 15px;
+}
+
+/* .signContainer>h3{
+  margin-top: 50px;
+} */
+
+.signSubmit-btn {
+  margin-bottom: 15px;
+}
+
+.signinpage {
+  background-color: rgb(25, 33, 81);
+}
+
+.signuppage {
+  background-color: rgb(25, 33, 81);
+}
+
+.signSubmit-btn {
+  border-radius: 5px;
+}
