@@ -1,0 +1,82 @@
+.navContainer {
+  background-color: #333;
+  padding: 15px 15px 0px 15px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(25, 33, 81, 1);
+}
+
+div.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.left-nav > a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.right-nav > a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.dropdown {
+  font-weight: bold;
+  display: none;
+}
+
+.show {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  text-align: right;
+}
+
+.dropdown-menu > div {
+  margin-bottom: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.dropdown-toggle {
+  background-color: rgb(2, 5, 51);
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+  padding: 6px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid white;
+  border: 1px solid rgba(255,255,255,0.7);
+}
+
+.postItemnav {
+  background-color: #e8dab2;
+  color: black!important;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.7);
+}
